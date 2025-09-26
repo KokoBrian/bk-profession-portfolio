@@ -67,9 +67,6 @@ src/
 ├── index.css # Global styles
 ├── App.css # Component-specific styles
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Getting Started
