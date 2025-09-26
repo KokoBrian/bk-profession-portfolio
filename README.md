@@ -1,19 +1,13 @@
-# Welcome to your Lovable project
+# BK Profession Portfolio
 
-## Project info
+A React-based personal portfolio website built with TypeScript, Vite, and Tailwind CSS. This project showcases my skills, projects, and professional background with a modern and responsive UI.
 
-**URL**: https://lovable.dev/projects/8ea8c2ab-a7e9-4d39-bcb0-aa88676f403d
+---
 
-## How can I edit this code?
+## 🔗 Live Demo
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ea8c2ab-a7e9-4d39-bcb0-aa88676f403d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
+[Insert your live demo URL here]
+--
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
@@ -60,14 +54,72 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/8ea8c2ab-a7e9-4d39-bcb0-aa88676f403d) and click on Share -> Publish.
+src/
+├── assets/ # Images and static files
+├── components/ # Reusable React components
+├── hooks/ # Custom React hooks
+├── lib/ # Utility functions or libraries
+├── pages/ # Page components for routing
+├── App.tsx # Main app component
+├── main.tsx # React app entry point
+├── index.css # Global styles
+├── App.css # Component-specific styles
 
-## Can I connect a custom domain to my Lovable project?
+yaml
+Copy code
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🚀 Getting Started
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### Prerequisites
+
+- Node.js and npm/yarn installed
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/KokoBrian/bk-profession-portfolio.git
+
+# Navigate into the project directory
+cd bk-profession-portfolio
+
+# Install dependencies
+npm install
+# or
+yarn install
+Running the Project Locally
+bash
+Copy code
+npm run dev
+# or
+yarn dev
+Open http://localhost:3000 in your browser to see the app.
+
+Building for Production
+bash
+Copy code
+npm run build
+# or
+yarn build
+💡 Future Improvements
+Add blog or articles section
+
+Implement dark/light mode toggle
+
+Add tests using React Testing Library or Jest
+
+Improve SEO and accessibility
+
+🤝 Contributing
+Feel free to fork this repo and submit pull requests. For major changes, please open an issue first.
+
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Author
+Koko Brian
+GitHub • LinkedIn
